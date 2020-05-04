@@ -1,0 +1,157 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 968px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.auth-form{
+    width: 35%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #dfd3d3; 
+    
+    border-radius: 4px;
+    text-align: right;
+}
+
+.field{
+    margin-bottom: 1rem;
+
+}
+
+.field:last-child{
+    margin-bottom: 0;
+
+}
+
+
+.task-input{
+    border: 0;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.btn{
+    padding: 10px;
+    color: #fff;
+    background-color: #6fd43f;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #8ae55f;
+
+}
+
+.field:last-child{
+    text-align: center;
+}
+
+
+.task-list{
+    padding: 0;
+    width: 43%;
+}
+li{
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: auto;
+    list-style-type: none;
+    border-radius: 4px;
+}
+
+.btn-delete{
+    font-size: 20px;
+    margin-right: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-change{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: auto;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.new-text{
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.completed{
+    background-color: red;
+    text-decoration: line-through;
+    
+}
+
+.main-modal {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(204, 196, 196, 0.8);
+	display: none;
+}
+
+.modal {
+	position: absolute;
+	width: 400px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 3px;
+	box-sizing: border-box;
+	background-color: green;
+	color: #fff;
+}
+
+h2{
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+
+.new-inp{
+    width: 75%;
+    font-size: 20px;
+}
+
+.close-modal {
+    
+	position: absolute;
+	top: 15px;
+    right: 15px;
+    border:0;
+    font-size: 20px;
+	cursor: pointer;
+}
+
+.ok-btn{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
